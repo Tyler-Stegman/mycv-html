@@ -5,50 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-CV</title>
-    <link href="CSS/my-cv.css" rel="stylesheet">
-    <!-- the below CSS style attribute will overwrite the "stylesheet" because it's more specific - NOT RECOMMENDED for HTML files-->
-    <style>
-        table{
-            color: blue;
-        }
-    </style>
+    <link href="CSS/my-cv-css.css" rel="stylesheet">
 </head>
-<body>
+<body class="font">
     <section>
-        <div>
-            <span>Left Text</span>
-            <span>Right Text</span>
-        </div>
         <address>
             Tyler Stegman | 403 Locust Forge Lane, Lebanon, OH 45036 | stegman44@gmail.com | 513-516-6206
         </address>
     </section>
     <section>
-        <!--&mbsp; - leaves a space in a table.  Not used below.-->
-        <h3>Technology</h3>
-        <!--the CSS style attribute below will overwrite BOTH the style attribute in the <head> AND the linked "stylesheet" - NOT RECOMMENDED for HTML files-->
-        <table id="techtable" style="color: black;">
+        <h3 class="boldest">Technology</h3>
+        <table id="techtable">
             <thead>
-                <tr class="boldest">
-                    <td>Git</td>
+                <tr>
+                    <td class="orange">Git</td>
                     <td>GitHub</td>
                     <td>MySQL</td>
                     <td>Java</td>
                 </tr>
                 <tr>
-                    <td>C#</td>
+                    <td class="orange">C#</td>
                     <td>JPA</td>
                     <td>ORM</td>
                     <td>Hibernate</td>
                 </tr>
-                <tr class="boldest">
-                    <td>Spring</td>
+                <tr>
+                    <td class="orange">Spring</td>
                     <td>HTML</td>
                     <td>CSS</td>
                     <td>Javascript</td>
                 </tr>
                 <tr>
-                    <td>Angular</td>
+                    <td class="orange">Angular</td>
                     <td>Scrum</td>
                 </tr>
 
@@ -56,12 +44,12 @@
         </table>
     </section>
     <section>
-        <h3>Career Goals</h3>
+        <h3 class="boldest">Career Goals</h3>
         <p>An aspiring computer programmer with the drive to ultimately work on military simulations for the DoD.</p>
-        <p>I want to use my experience and training to work as a simulations programmer at Wright Patterson AFB.</p>
+        <p> I want to use my experience and training to work as a simulations programmer at Wright Patterson AFB.</p>
     </section>
     <section>
-        <h3>Work Experience</h3>
+        <h3 class="boldest">Work Experience</h3>
         <ul>
             <li>Financial Operations Analyst</li>
             <ul>
@@ -77,7 +65,7 @@
         </ul>
     </section>
     <section>
-        <h3>Education</h3>
+        <h3 class="boldest">Education</h3>
         <ul>
             <li>MAX Technical Training</li>
             <ul>

@@ -1,0 +1,14 @@
+table {
+    width: 25%;
+    color: black;
+    border: 2.5px solid forestgreen;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+#techtable{
+    color: blue;
+}
+.boldest{
+    font-weight: bold;
+    color: green;
+}
